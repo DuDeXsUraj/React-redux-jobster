@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aliceblue;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* Reset some default styles for the body */
+
+
+
+.logo{
+  width: 160px;
+}
+.normal-btn{
+  border: transparent;
+  background-color: transparent;
+  color:blue;
+}
+.content{
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+/* for FormRow.js */
+.form-control{
+  background:aliceblue;
 }
